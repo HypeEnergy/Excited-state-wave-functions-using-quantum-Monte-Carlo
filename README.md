@@ -6,8 +6,9 @@ lying states (see Roy et al.). A quantum Monte Carlo method is used to compute t
 wave function. A trial wave function for the first exited state is then selected and the ground
 state component is subtracted from the trial wave function. This subtraction is repeated after
 every iteration of the Monte Carlo algorithm. Because excited states decay with a time constant
+
 ![alt text](image-1.png)
-e^−(Ej−E0), 
+ 
 the lowest remaining excited state dominates the remaining wave function. After the
 first excited state is obtained, the second excited state is computed by subtracting both known
 states from the trial wave function. This process is repeated to obtain additional wave functions.
